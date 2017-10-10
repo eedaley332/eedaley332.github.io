@@ -1,0 +1,55 @@
+/*standard styling - across all pages*/
+  body{
+    font-family:'Roboto:100', sans-serif;
+    text-align: center;
+    }
+
+  img.logo{
+    width: 300px;
+    }
+
+  .navbar-nav{font-size: 20px;}
+  .row{margin-left: 0}
+
+  .card-text{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 25px;
+    }
+
+  .card-footer{
+    background-color: black;
+    color:white;
+    font-size: 15px;
+    }
+
+  ul{
+    font-size: 17px;
+    color: grey;
+    font-style: italic;
+    text-align: left;
+    }
+
+  .card-para{
+    font-size: 17px;
+    color: grey;
+    font-style: italic;
+    }
+
+/*index styling*/
+  .jumbotron{
+    background-image: url(gallery_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position:25% bottom;
+    color: white;
+    display:flex;
+    align-content:center;
+    align-items:center;
+    font-style: italic;
+    }
+
+/*gallery styling*/
+  .carousel-inner {
+    height:600px;
+    }
